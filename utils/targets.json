@@ -119,5 +119,13 @@
         "url":"https://github.com/lancaster-university/codal-wds",
         "branch":"master",
         "type":"git"
-    }    
+    },
+    {
+        "name":"codal-puya-startkit",
+        "info":"This target specifies the PUYA PY32 development board",
+        "device_url":"",
+        "url":"https://github.com/lancaster-university/codal-puya-startkit",
+        "branch":"master",
+        "type":"git"
+    }      
 ]
