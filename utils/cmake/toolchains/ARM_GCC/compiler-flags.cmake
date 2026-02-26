@@ -14,9 +14,7 @@ set(CMAKE_C_COMPILE_OBJECT        "<CMAKE_C_COMPILER> <DEFINES> ${EXPLICIT_INCLU
 
 set(CMAKE_C_LINK_EXECUTABLE       "<CMAKE_C_COMPILER> --specs=nano.specs --specs=nosys.specs <CMAKE_C_LINK_FLAGS> <LINK_FLAGS> -Wl,-Map,<TARGET>.map -Wl,--start-group <OBJECTS> <LINK_LIBRARIES> -lm -lc -lgcc -Wl,--end-group -o <TARGET>")
 
-set(CMAKE_CXX_OUTPUT_EXTENSION ".o")
 set(CMAKE_DEPFILE_FLAGS_CXX "-MMD -MT <OBJECT> -MF <DEPFILE>")
-set(CMAKE_C_OUTPUT_EXTENSION ".o")
 set(CMAKE_DEPFILE_FLAGS_C "-MMD -MT <OBJECT> -MF <DEPFILE>")
 
 set(CMAKE_C_FLAGS_DEBUG_INIT          "-g -gdwarf-3")
